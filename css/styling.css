@@ -1,0 +1,36 @@
+@font-face{
+	font-family:"ab";
+	src:url("armalite_rifle.ttf");
+	font-weight:normal;
+	font-style:normal;
+}
+.ab{
+	font-family:'ab',sans-serif;
+	color:#fff;
+	text-align:center;
+	font-size:55px;
+}
+@font-face{
+	font-family:"abc";
+	src:url("Capture_it.ttf");
+	font-weight:normal;
+	font-style:normal;
+}
+.abc{
+	font-family:'abc',sans-serif;
+	color:#6D7879;
+	text-align:center;
+	font-size:45px;
+}
+@font-face{
+	font-family:"abcd";
+	src:url("HVD_Peace.ttf");
+	font-weight:normal;
+	font-style:normal;
+}
+.abcd{
+	font-family:'abcd',sans-serif;
+	color:#6D7879;
+	text-align:center;
+	font-size:35px;
+}

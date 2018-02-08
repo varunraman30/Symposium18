@@ -11,7 +11,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: #03c5ec;
+  color: #03c5ec
   outline: none;
   text-decoration: none;
 }
@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
   .back-to-top {
     bottom: 15px;
   }
-  .kr1
+  .hv
   {
     font-size:120px;
   }

@@ -22,8 +22,15 @@
 
     <!-- Custom styles for this template -->
 	<link href="css/agency.min.css" rel="stylesheet">
-	<link href="css/animated.css" rel="stylesheet">
+      
+    <!--animate css cdn-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 	
+    <!--Animate on Scroll (AOS)-->
+      <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+      <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+      
+      
   </head>
 
   <body id="page-top">
@@ -54,30 +61,36 @@
       </div>
     </nav>
 
-	  <br><br>
+	  
     <!-- Header -->
-    <header class="masthead animated bounce">
+    <header class="masthead">
+ 
       <div class="container">
         <div class="intro-text">
-          <h3> Department of Computer Science and Department of Information Technology presents </h3>
-          <b><div class="text-warning" style="font-size:10rem; color: black;
+            <br><br><br><br><br>
+          <h3 style="font-size:3vw"> Department of Computer Science and Department of Information Technology presents </h3>
+          <b><div class="text-warning" style="font-size:12vw; color: black;
    -webkit-text-fill-color: warning; /* Will override color (regardless of order) */
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black; text-outline: 5px 5px black; font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;" >Prayudh 18</div></b><br><br>
-       <div class="row">   
-		 <div class="col"><a class="btn btn-outline-warning btn-xl text-uppercase js-scroll-trigger" href="#cse">Computer Science Events</a></div>
-		  <div class="col"><a class="btn btn-outline-warning btn-xl text-uppercase js-scroll-trigger" href="#it">Information Technology Events</a></div>
+      
         
+        <div class="row">
+           <div class="col animated bounceInDown"><a class="btn btn-warning btn-xl js-scroll-trigger  animated infinite tada " href="#cse">Computer Science Events</a></div>
+           <div class="col animated bounceInDown"><a class="btn btn-warning btn-xl js-scroll-trigger  animated infinite tada" href="#it">Information Technology Events</a></div>
+        </div>
+           
+        </div>
 		</div>
-		</div>
-      </div>
+     
+    
     </header>
 
     <style>
 	.bg-lightblue
-	{ background-color:#95CDFF; }
+	{  background: linear-gradient(to left, #000066 22%, #ff5050 100%); }
 	.bg-lightviolet
-	{background-color:#C8ADFF;}
+	{  background: linear-gradient(to left, #9900cc 25%, #003366 129%); }
 	.bg-lightgreen
 	{ background-color: #a1ffbf ;}
 	.btn-purple
@@ -93,18 +106,22 @@
 	</style>
 
     <!-- cse Grid -->
-	<div id="cse" class="bg-lightblue">
+	<div data-aos="zoom-in"  data-aos-duration="1000">
+    <div id="cse" class="bg-lightblue">
     <section id="portfolio">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-			 <h1 class="section-heading text-uppercase display-1">Computer science</h1>
-            <h2 class="section-heading text-uppercase">EVENTS</h2>
+			 <h1 class="section-heading text-uppercase display-1 text-white" style="font-size:5vw">Computer science</h1>
+            <h2 class="section-heading text-uppercase text-white" style="font-size:4vw">EVENTS</h2>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-4 col-sm-6 portfolio-item">
+          
+              <div class="col-md-4 col-sm-6 portfolio-item">
+                  <div data-aos="flip-right"  data-aos-duration="1000">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-code fa-3x"></i>
@@ -115,8 +132,10 @@
             <div class="portfolio-caption">
               <h4>Debugging</h4>
             </div>
-          </div>
+              </div></div>
+            
           <div class="col-md-4 col-sm-6 portfolio-item">
+              <div data-aos="flip-right"  data-aos-duration="1000">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -129,7 +148,10 @@
               <h4>Mobile App Development</h4>
             </div>
           </div>
+            </div> 
+              
           <div class="col-md-4 col-sm-6 portfolio-item">
+              <div data-aos="flip-right"  data-aos-duration="1000">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -142,8 +164,12 @@
               <h4>Project Expo</h4>
 		    </div>
           </div>
+            </div>
+              
+              
           <div class="col-md-4 col-sm-4 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+            <div data-aos="flip-right"  data-aos-duration="1000">
+              <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-code fa-3x"></i>
@@ -155,7 +181,10 @@
               <h4>Web Designing</h4>
             </div>
           </div>
+            </div>      
+              
           <div class="col-md-4 col-sm-4 portfolio-item">
+              <div data-aos="flip-right"  data-aos-duration="1000">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -169,7 +198,10 @@
               
             </div>
           </div>
+            </div>
+              
 		  <div class="col-md-4 col-sm-4 portfolio-item">
+              <div data-aos="flip-right"  data-aos-duration="1000">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -182,6 +214,7 @@
               <h4>Free Workshop [Ethical Hacking]</h4>
             </div>
           </div>
+            </div>
 		  <br>
 			
 			
@@ -189,8 +222,8 @@
 			<div class="container">
 			<center>
 			<div class="row">
-			<div class="col"><a href="" class="btn btn-xl btn-blu1 text-light" data-toggle="modal" data-target="#popup" data-dismiss="modal">Event Registration</a></div>
-			<div class="col"><a href="" class="btn btn-xl btn-danger" data-toggle="modal" data-target="#popup1" >Workshop Registration</a></div>
+			<div class="col animated infinite pulse"><a href="" class="btn btn-xl btn-blu1 text-light animated pulse" data-toggle="modal" data-target="#popup" data-dismiss="modal">Event Registration</a></div>
+			<div class="col animated infinite pulse"><a href="" class="btn btn-xl btn-danger animated pulse" data-toggle="modal" data-target="#popup1" >Workshop Registration</a></div>
 			</div>
 			</center>
 			</div>
@@ -239,20 +272,24 @@
 	
 	
         </div>
+        </div>
 	
 	<!-- it Grid -->
-	<div id="it">
+	<div data-aos="zoom-in"  data-aos-duration="1000">
+      <div id="it">
     <section class="bg-lightviolet" id="portfolio">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h1 class="section-heading text-uppercase display-3">Information Technology</h1>
-            <h2 class="section-heading text-uppercase">EVENTS</h2>
+            <h1 class="section-heading text-uppercase display-3 text-white" style="font-size:5vw">Information Technology</h1>
+            <h2 class="section-heading text-uppercase text-white" style="font-size:4vw">EVENTS</h2>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal_1">
+          
+            <div class="col-md-4 col-sm-6 portfolio-item">
+            <div data-aos="flip-right"  data-aos-duration="1000">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal_1">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-code fa-3x"></i>
@@ -263,9 +300,11 @@
             <div class="portfolio-caption">
               <h4>Technical Quiz</h4>
             </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal_2">
+                </div></div>
+          
+            <div class="col-md-4 col-sm-6 portfolio-item">
+            <div data-aos="flip-right"  data-aos-duration="1000">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal_2">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-code fa-3x"></i>
@@ -275,10 +314,12 @@
             </a>
             <div class="portfolio-caption">
               <h4>Game Development</h4>
-            </div>
+                </div></div>
           </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal_3">
+          
+            <div class="col-md-4 col-sm-6 portfolio-item">
+            <div data-aos="flip-right"  data-aos-duration="1000">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal_3">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-code fa-3x"></i>
@@ -289,9 +330,11 @@
             <div class="portfolio-caption">
               <h4>Paper Presentation</h4>             
             </div>
-          </div>
-          <div class="col-md-6 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal_4">
+                </div></div>
+          
+            <div class="col-md-6 col-sm-6 portfolio-item">
+            <div data-aos="flip-right"  data-aos-duration="1000">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal_4">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-code fa-3x"></i>
@@ -302,9 +345,11 @@
             <div class="portfolio-caption">
               <h4>Connexome</h4>
             </div>
-          </div>
-          <div class="col-md-6 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal_5">
+                </div></div>
+          
+            <div class="col-md-6 col-sm-6 portfolio-item">
+            <div data-aos="flip-right"  data-aos-duration="1000">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal_5">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-code fa-3x"></i>
@@ -316,133 +361,16 @@
               <h4>Workshop - Breathing Technology in your minds - Robotics</h4>
             </div>
 			<br>
-          </div>
-          <a href ="https://docs.google.com/forms/d/e/1FAIpQLSf9UACgxbHykT3zHYzP8P5a9Bh4b-GVRAvhLfFr5xh2_-r0sg/viewform?c=0&w=1" class="btn btn-xl text-light btn-purple">Register Now</a>
+                </div></div>
+          
+            <a href ="https://docs.google.com/forms/d/e/1FAIpQLSf9UACgxbHykT3zHYzP8P5a9Bh4b-GVRAvhLfFr5xh2_-r0sg/viewform?c=0&w=1" class="btn btn-xl text-light btn-purple animated infinite pulse">Register Now</a>
 		  
         </div>	
       </div>
     </section>
 	</div>
-	
-
-    <!-- Team 
-    <section class="bg-light" id="team">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-              <h4>Kay Garland</h4>
-              <p class="text-muted">Lead Designer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-              <h4>Larry Parker</h4>
-              <p class="text-muted">Lead Marketer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-              <h4>Diana Pertersen</h4>
-              <p class="text-muted">Lead Developer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-          </div>
-        </div>
       </div>
-    </section>
 
-    <!-- Clients 
-    <section class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>-->
 
     <!-- Contact -->
     <section id="contact">
@@ -977,7 +905,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
-
+<script>AOS.init();</script>
   </body>
 
 </html>

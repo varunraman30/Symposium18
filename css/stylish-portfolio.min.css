@@ -8,3 +8,18 @@ sansk {
 	font-family: sanskrit;
 	font-size: 3.5rem;
 }
+
+#preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    overflow: visible;
+    background: url('https://www.sstnet.com.br/img/preload.gif') no-repeat center center;
+ }
+
+#content {
+    display: none;
+}
+
+

@@ -4,5 +4,8 @@ Symposium 2018
 GOD OF CSE
 Abie
 
-GOD OF ECE 
-Varun
+GOD OF EEE 
+Dr.Mahendran
+
+GOD OF ALL GODS
+P.Matan - M.Tech(CSE),PHD.
